@@ -149,7 +149,7 @@ transition: .2s ease-in-out all;
 }
 
 .featured-books .container-featured .books .book img{
-    width: 235px;
+    width: 215px;
     max-height: 300px;
     max-width: 100%;
 }
@@ -196,7 +196,7 @@ transition: .2s ease-in-out all;
 .container-contegorys .categorys .category{
     width: 40%;
     height: 50%;
-    padding: 35px 25px;
+    padding: 35px 20px;
     background-color: #fffffff6;
     border-radius: 5px;
     color: #000;
@@ -206,7 +206,7 @@ transition: .2s ease-in-out all;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    
+    cursor: pointer;
 }
 
 .container-contegorys .categorys .category:hover{
@@ -260,6 +260,7 @@ transition: .2s ease-in-out all;
     border-radius: 15px;
     margin-top: 5px;
     transition: .2s ease-in-out all;
+    cursor: pointer;
 }
 
 .container-contact .form  button:hover{
@@ -288,4 +289,11 @@ transition: .2s ease-in-out all;
     outline: none;
     color: #313131;
     font-size: 16px;
+}
+
+
+/*Widths Desktop*/
+
+@media (min-width: 450px) {
+   
 }
