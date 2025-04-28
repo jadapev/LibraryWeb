@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:18px 30px;
+    background-color: #fff;
+}
+
+.header .container-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .container-title .title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header .container-title .title a{
+    text-decoration: none;
+}
+
+.header .container-links a{
+text-decoration: none;
+}
+
+.header .container-links a svg{
+    color: #2563eb;
+}
+
+svg{
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,291 @@
+.container-main{
+    width: 100%;
+    background: url('https://burst.shopifycdn.com/photos/library-books.jpg?width=1000&format=pjpg&exif=0&iptc=0');
+    color: #fff;
+}
+
+.container-main .container{
+    width: 100%;
+    background-color: #2564ebd8;
+    padding: 10px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.container-main .container h2{
+    font-size: 32px;
+}
+
+.container-main .container p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #f5f2f2;
+}
+
+.container-main .container .form-group{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.container-main .container .form-group input{
+    width: 80%;
+    padding: 12px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+}
+
+.container-main .container .form-group button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d4ed8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease-in all;
+
+}
+
+
+.container-main .container .form-group button:hover{
+    background-color: #2563eb;
+    transform: scale(1.2);
+}
+
+.container-main .characteristics{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-main .characteristics .one,.two,.three{
+    width: 33.3%;
+    min-height: 25%;
+    background-color: #4b7bffa8;
+    color: #fff;
+    fill: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.container-main .characteristics .one,.two,.three ,.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.container-main .characteristics .one,.two,.three ,.info h6{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.featured-books{
+    width: 100%;
+    padding: 10px 25px;
+    margin-top: 40px;
+   
+}
+
+.featured-books .title{
+    display:flex;
+    justify-content: space-between;
+}
+
+.featured-books .title button{
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid  #4b7bffa8;
+    color: #4b7bffa8;
+    border-radius: 10px;
+    transition: .2s ease-in-out all;
+}
+
+.featured-books .title button:hover{
+    background-color: #2564ebd8;
+    color: #fff;
+}
+
+.featured-books .container-featured{
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+
+.featured-books .container-featured .books{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    display: flex;
+    padding: 10px 0;
+}
+
+.featured-books .container-featured .books .book{
+ width: 50%;
+display: flex;
+flex-direction: column;
+transition: .2s ease-in-out all;
+}
+
+.featured-books .container-featured .books .book:hover{
+    transform: scale(1.1);
+}
+
+.featured-books .container-featured .books .book img{
+    width: 235px;
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.featured-books .container-featured .books .book p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-contegorys{
+    width: 100%;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 7rem;
+    color: #000;
+    border-top: 2px solid #d3dae9d8;
+}
+
+
+.container-contegorys h1{
+    font-size: 30px;
+}
+
+.container-contegorys p{
+    font-size: 15px;
+}
+
+
+.container-contegorys .categorys{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-contegorys .categorys .category{
+    width: 40%;
+    height: 50%;
+    padding: 35px 25px;
+    background-color: #fffffff6;
+    border-radius: 5px;
+    color: #000;
+    transition: .2s ease-in-out all;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-contegorys .categorys .category:hover{
+    transform: scale(1.1);
+}
+
+.container-contegorys .categorys .category img{
+    width: 45px;
+    height: 50px;
+}
+
+.container-contegorys .categorys .category  h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #5f5a5a;
+}
+
+
+.container-contegorys .categorys .category p{
+    font-size: 12px;
+    font-weight: 500;
+    color:#32343aa8;
+}
+
+.container-contact{
+    width: 100%;
+    background-color: #2564ebd8;
+    color: #fff;
+    padding: 25px 10px; 
+    margin-top: 10px;
+}
+
+
+.container-contact .form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    gap: 10px;
+}
+
+
+.container-contact .form  button{
+    width: 30%;
+    padding: 10px;
+    background-color: #fff;
+    color: #2564ebd8;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 5px;
+    transition: .2s ease-in-out all;
+}
+
+.container-contact .form  button:hover{
+    background-color: #2564ebd8;
+    color: #fff;
+}
+
+.container-contact .form .form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.container-contact .form .form-group label{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.container-contact .form .form-group input,textarea{
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    color: #313131;
+    font-size: 16px;
+}
