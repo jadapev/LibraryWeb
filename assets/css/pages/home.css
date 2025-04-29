@@ -345,7 +345,7 @@ transition: .2s ease-in-out all;
 }
 
 .container-contact,.container-contegorys,.container-featured, .container-main .container{
-    padding: 0px 80px;
+    padding: 0px 70px;
 }
 
 
@@ -362,7 +362,7 @@ transition: .2s ease-in-out all;
 }
 
 .featured-books .container-featured .books .book{
-    width: 15%;
+    width: 15.5%;
     overflow: hidden;
 }
 
@@ -386,6 +386,15 @@ transition: .2s ease-in-out all;
 
 .container-contact{
     padding: 70px;
+}
+
+.container-contact .form{
+    width: 60% !important; 
+    margin: 0 auto;
+}
+
+.container-contact .form header h1{
+    font-size: 32px !important;
 }
 
 .container-contact .form button{
