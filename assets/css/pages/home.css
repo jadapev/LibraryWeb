@@ -339,8 +339,12 @@ transition: .2s ease-in-out all;
 
 @media (min-width: 780px) {
  
+    .container-main{
+      
+    }
+
 .container-main .container{
-    padding-top: 70px !important; 
+    padding:130px 100px !important; 
 }
 
 .container-main .container .form-group{
@@ -349,6 +353,7 @@ transition: .2s ease-in-out all;
 
 .container-main .container .characteristics{
     padding-bottom: 75px;
+    display: none;
 }
 
 .container-main .container .characteristics .one,.two,.three{
